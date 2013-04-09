@@ -15,6 +15,9 @@
 (defn about-page []
   (layout/render "about.html"))
 
+(defn spesenabrechnung-page []
+  (layout/render "spesenabrechnung.html"))
+
 (defn allowance [params]
 	(let [{:keys [country start end]} params
 		  startDate (fmt/parse date-formatter start)
@@ -27,5 +30,6 @@
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
+  (GET "/spesenabrechnung" [] (spesenabrechnung-page))
   (GET "/countries" [] (r/json countries))
   (GET "/allowance" [& all] (str (allowance all))))
