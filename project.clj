@@ -8,7 +8,9 @@
                  [clabango "0.5"]
                  [com.taoensso/timbre "1.5.2"]
                  [com.taoensso/tower "1.4.0"]
-                 [markdown-clj "0.9.19"]]
+                 [markdown-clj "0.9.19"]
+                 [clj-time "0.5.0"]
+                 [com.datomic/datomic-free "0.8.3862"]]
   :plugins [[lein-ring "0.8.3"]]
   :ring {:handler kosten-los.handler/war-handler
          :init    kosten-los.handler/init
