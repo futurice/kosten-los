@@ -1,7 +1,8 @@
 (ns kosten-los.handler
   (:use kosten-los.routes.home
         compojure.core)
-  (:require [noir.util.middleware :as middleware]
+  (:require [kosten-los.database :as database]
+            [noir.util.middleware :as middleware]
             [compojure.route :as route]))
 
 (defroutes app-routes
@@ -14,7 +15,9 @@
    an app server such as Tomcat
    put any initialization code here"
   []
-  (println "kosten-los started successfully..."))
+  (do
+    (database/start)
+    (println "kosten-los started successfully...")))
 
 (defn destroy
   "destroy will be called when your application

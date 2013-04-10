@@ -2,6 +2,7 @@
   (:use compojure.core)
   (:require [kosten-los.views.layout :as layout]
             [kosten-los.util :as util]
+            [kosten-los.models.todo :as todo]
             [noir.response :as r]
             [clj-time.core :as t]
             [clj-time.format :as fmt]))
@@ -13,7 +14,9 @@
     "home.html" {:content (util/md->html "/md/docs.md")}))
 
 (defn about-page []
-  (layout/render "about.html"))
+  (do
+;    (todo/find-all) ; breaks for some reason...
+    (layout/render "about.html")))
 
 (defn spesenabrechnung-page []
   (layout/render "spesenabrechnung.html"))

@@ -10,7 +10,8 @@
                  [com.taoensso/tower "1.4.0"]
                  [markdown-clj "0.9.19"]
                  [clj-time "0.5.0"]
-                 [com.datomic/datomic-free "0.8.3862"]]
+                 [com.datomic/datomic-free "0.8.3862"]
+                 [datomic-simple "0.1.0"]]
   :plugins [[lein-ring "0.8.3"]]
   :ring {:handler kosten-los.handler/war-handler
          :init    kosten-los.handler/init
