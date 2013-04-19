@@ -1,9 +1,16 @@
 Torstai
 ----
 
-- 16:00 Bussi Lauttasaaresta: jaetaan swägit bussissa
-- 18:00 **Jakautuminen ryhmiin** (vai etukäteen?)
-- 18:15 **Tehtävänanto** (osin etukäteen?)
+* 14:00 Järkkäilijät lähtee Larusta
+  * Verkot, sähköt, presekone kuntoon
+  * Backlogin laputus valmiiksi tiimitilojen seinälle
+  * Leiriohjelma ryhmätyötilojen seinälle selvästi ja isosti
+* 16:00 Bussi Lauttasaaresta
+  * jaetaan swägit bussissa
+  * **Jakautuminen ryhmiin** viimeistään bussissa (voi myös jakautua etukäteen)
+  * **Tehtävänantoon tutustuminen**
+* 17:30 **Intro leiripaikkaan** ja majoittautuminen
+- 18:00 **Koodaustehtävän ja leiriohjelman läpikäyminen** yhdessä
 - Setup ja **koodailua vapaaseen tahtiin**
 - 19:00 Illallinen
 
@@ -12,8 +19,7 @@ Perjantai
 
 - 7:10 Aamureippailut ja -pesut
 - 8:00 Aamiainen
-- 8:45 **Keynote**? MORTAL KOMBINATOR?
-- 9:15 **koodausta**
+- 8:45 **koodausta**
 - 11:40 **daily 1**
 - 12:00 lounas
 - tauko omaan tahtiin (eli **saa koodata**)
@@ -24,7 +30,8 @@ Perjantai
 - 15:00 iltapäiväulkoilut
 - 15:30 **tekeminen jatkuu**
 - 18:45 **välidemo**
-- 19:30 päivällinen ja sauna
+- 19:30 Miniretrot tiimeissä
+- 19:45 Päivällinen ja sauna 
 - illalla **vapaata koodailua** -> 23:30 ryhmätyötilat sulki
 
 Lauantai
@@ -33,7 +40,7 @@ Lauantai
 - 7:10 Ylimääräiset aamu-unet, 3 min
 - 7:13 Aamureippailut ja -pesut
 - 8:00 Aamiainen
-- 8:45 **Keynote 2**
+- 8:45 **Keynote**  MORTAL KOMBINATOR?
 - 9:15 **koodausta**
 - 11:40 **daily 3**
 - 12:00 lounas
