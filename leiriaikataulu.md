@@ -27,8 +27,8 @@ Perjantai
 - 13:15 **lisää koodia**
 - 14:30 välipala (ja daily)
 - 14:40 **daily 2**
-- 15:00 iltapäiväulkoilut
-- 15:30 **tekeminen jatkuu**
+- 15:00 Combat-treenit (pituus halujen ja jaksamisen mukaan)
+- 16:00 **tekeminen jatkuu**
 - 18:45 **välidemo**
 - 19:30 Miniretrot tiimeissä
 - 19:45 Päivällinen ja sauna 
@@ -46,8 +46,8 @@ Lauantai
 - 12:00 lounas
 - 12:45 **finalisointisprintti**
 - 15:00 **loppudemot, skumppa, videoyhteys Vera**
-- 16:00 vex. Palautebussi!
-
+* 16:00 vex. Palautebussi!
+  * Retro ja palautteen keruu bussissa
 - 18:00 Jatkorafla???
 
 Tiistai Vltava 16-17
