@@ -28,20 +28,20 @@ To start a web server for the application, run:
 
 ### RxJS
 
-https://github.com/jhusain/learnrx
-http://reaktor.github.io/learn-rx
+* https://github.com/jhusain/learnrx
+* http://reaktor.github.io/learn-rx
 
 ### Luminus, with stack architecture
 
-http://www.luminusweb.net/docs
+* http://www.luminusweb.net/docs
 
 ### Korma
 
-http://sqlkorma.com/docs
+* http://sqlkorma.com/docs
 
 ### Clojure
 
-http://clojurekoans.com
+* http://clojurekoans.com
 
 ## License
 
