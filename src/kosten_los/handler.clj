@@ -2,7 +2,8 @@
   (:use kosten-los.routes.home
         compojure.core)
   (:require [noir.util.middleware :as middleware]
-            [compojure.route :as route]))
+            [compojure.route :as route]
+            [kosten-los.models.schema :as schema]))
 
 (defroutes app-routes
   (route/resources "/")
@@ -14,6 +15,11 @@
    an app server such as Tomcat
    put any initialization code here"
   []
+  (when-not (schema/initialized?)
+    (do
+      (println "Creating database tables")
+      (schema/create-tables)
+      (println "Database tables created")))
   (println "kosten-los started successfully..."))
 
 (defn destroy
