@@ -1,3 +1,7 @@
+![MORTλL KOMBINλTOR ](https://dl.dropboxusercontent.com/u/52798564/mortal-kombinator-logotext.jpg)
+
+# Futurice Functional Programming Code Camp 2.–4.5.
+
 Torstai
 ----
 
