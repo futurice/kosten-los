@@ -14,7 +14,9 @@ After that, run the app stack once (see below) to download and install all requi
 
 To start a web server for the application, run:
 
-    lein ring server
+    $ lein ring server
+
+Check the example page at [http://localhost:3000/spesenabrechnung](http://localhost:3000/spesenabrechnung)
 
 ## Tech stack
 
