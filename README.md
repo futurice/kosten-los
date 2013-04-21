@@ -28,7 +28,7 @@ To start a web server for the application, run:
 
 ### RxJS
 
-* https://github.com/jhusain/learnrx
+* http://jhusain.github.io/learnrx/
 * http://reaktor.github.io/learn-rx
 
 ### Luminus, with stack architecture
