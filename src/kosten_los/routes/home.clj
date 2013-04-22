@@ -2,6 +2,7 @@
   (:use compojure.core)
   (:require [kosten-los.views.layout :as layout]
             [kosten-los.util :as util]
+            [kosten-los.models.db :as db]
             [noir.response :as r]
             [clj-time.core :as t]
             [clj-time.format :as fmt]))
@@ -18,7 +19,7 @@
     (t/in-minutes (t/interval startDate endDate))))
 
 (def countries
-  '("fi" "se" "uk" "de"))
+  (map :code (db/get-countries)))
 
 (defroutes home-routes
   (GET "/" [] (home-page))

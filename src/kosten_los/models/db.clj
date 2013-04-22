@@ -26,5 +26,5 @@
   (insert countries
     (values [{:code "fi"}
              {:code "uk"}
-             {:code "ge"}
+             {:code "de"}
              {:code "se"}])))
