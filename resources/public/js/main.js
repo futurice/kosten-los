@@ -33,11 +33,12 @@ function showMsg(title, body, type) {
   $container.prepend($msg)
   setTimeout(function() { $msg.css('opacity', 1) }, 100)
 }
-function showSuccessMsg() {
-  showMsg('Thank you!', 'Your allowance claims have been submitted.', 'success')
+function showSuccessMsg(response) {
+  var booty = response.data / 100.0
+  showMsg('Thank you!', 'Your allowance claims have been submitted. Cashing in '+booty+' € worth of mad dough :D', 'success')
 }
 function showErrorMsg() {
-  showMsg('Oops!', 'There was an error processinc your claims.', 'error')
+  showMsg('Oops!', 'There was an error processinc your claims. No cash for you today :(', 'error')
 }
 function createOption(country) {
   return $('<option>').attr('value', country).text(country)
