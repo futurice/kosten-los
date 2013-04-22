@@ -16,7 +16,7 @@ To start a web server for the application, run:
 
     $ lein ring server
 
-Check the example page at [http://localhost:3000/spesenabrechnung](http://localhost:3000/spesenabrechnung)
+Check the example page at [http://localhost:3000/](http://localhost:3000/)
 
 ## Tech stack
 

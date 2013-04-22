@@ -2,6 +2,7 @@
   (:use compojure.core)
   (:require [kosten-los.views.layout :as layout]
             [kosten-los.util :as util]
+            [kosten-los.models.db :as db]
             [noir.response :as r]
             [clj-time.core :as t]
             [clj-time.format :as fmt]))
@@ -17,10 +18,10 @@
     endDate (fmt/parse date-formatter end)]
     (t/in-minutes (t/interval startDate endDate))))
 
-(def countries
-  '("fi" "se" "uk" "de"))
+(defn countries []
+  (map :code (db/get-countries)))
 
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/countries" [] (r/json countries))
+  (GET "/countries" [] (r/json (countries)))
   (POST "/allowance" [& all] (str (allowance all))))
