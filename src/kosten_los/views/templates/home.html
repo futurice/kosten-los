@@ -1,23 +1,17 @@
 
 {% extends "kosten_los/views/templates/base.html" %}
 
-
-
 {% block content %}
 
+<!--h1>Kosten Los!</h1-->
 
- <div class="hero-unit">
-    <h1>Welcome to kosten-los</h1>
-    <p>Time to start building your site!</p>
-    <p><a class="btn btn-primary btn-large" href="http://luminusweb.net">Learn more &raquo;</a></p>
- </div>
- 
- <div class="row-fluid">
-    <div class="span8">       
-    {{content}}
-    </div>
- </div>
-
+<div>
+<form class="allowance-form" action="/allowance">
+  <select class="countries" name="country"></select>
+  <input name="start" class="start-date" type="date" placeholder="Start date">
+  – <input name="end" class="end-date" type="date" placeholder="End date">
+  <input class="submit-btn" type="submit" value="Send form">
+</form>
+</div>
 
 {% endblock %}
-

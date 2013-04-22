@@ -1,0 +1,14 @@
+.container {
+  margin-top: 60px;
+}
+.alert {
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.submit-btn {
+  display: block;
+}

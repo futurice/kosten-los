@@ -6,30 +6,22 @@
             [clj-time.core :as t]
             [clj-time.format :as fmt]))
 
-(def date-formatter (fmt/formatters :date-hour-minute))
+(def date-formatter (fmt/formatter "yyyy-MM-dd HH:mm"))
 
 (defn home-page []
-  (layout/render
-    "home.html" {:content (util/md->html "/md/docs.md")}))
-
-(defn about-page []
-  (layout/render "about.html"))
-
-(defn spesenabrechnung-page []
-  (layout/render "spesenabrechnung.html"))
+  (layout/render "home.html"))
 
 (defn allowance [params]
-	(let [{:keys [country start end]} params
-		  startDate (fmt/parse date-formatter start)
-		  endDate (fmt/parse date-formatter end)]
-  		(t/in-minutes (t/interval startDate endDate))))
+  (let [{:keys [country start end]} params
+    startDate (fmt/parse date-formatter start)
+    endDate (fmt/parse date-formatter end)]
+    (t/in-minutes (t/interval startDate endDate))))
 
 (def countries
-	'("fi" "se" "uk" "de"))
+  '("fi" "se" "uk" "de"))
 
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
-  (GET "/spesenabrechnung" [] (spesenabrechnung-page))
   (GET "/countries" [] (r/json countries))
-  (GET "/allowance" [& all] (str (allowance all))))
+  (POST "/allowance" [& all] (str (allowance all))))
