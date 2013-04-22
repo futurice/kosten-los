@@ -18,6 +18,16 @@ var submitResponseStr = submitStr
 countriesToPopulateStr.subscribe(populateCountries)
 submitResponseStr.subscribe(showSuccessMsg, showErrorMsg)
 
+// Functional helpers
+
+function always(x) {
+  return function() {
+    return x
+  }
+}
+
+// State mutation and I/O
+
 function populateCountries(response) {
   $('.countries').append(response.data.map(createOption))
 }
@@ -42,11 +52,6 @@ function showErrorMsg() {
 }
 function createOption(country) {
   return $('<option>').attr('value', country).text(country)
-}
-function always(x) {
-  return function() {
-    return x
-  }
 }
 function textNode(str) {
   return document.createTextNode(str)
