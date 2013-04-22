@@ -49,7 +49,7 @@ Lauantai
 - 11:40 **daily 3**
 - 12:00 lounas
 - 12:45 **finalisointisprintti**
-- 15:00 **loppudemot, skumppa, videoyhteys Vera**
+- 15:00 **loppudemot, skumppa**
 * 16:00 vex. Palautebussi!
   * Retro ja palautteen keruu bussissa
 - 18:00 Jatkorafla???
