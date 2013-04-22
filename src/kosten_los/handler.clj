@@ -3,6 +3,7 @@
         compojure.core)
   (:require [noir.util.middleware :as middleware]
             [compojure.route :as route]
+            [kosten-los.models.db :as db]
             [kosten-los.models.schema :as schema]))
 
 (defroutes app-routes
@@ -19,7 +20,10 @@
     (do
       (println "Creating database tables")
       (schema/create-tables)
-      (println "Database tables created")))
+      (println "Database tables created")
+      (println "Inseting fixture data")
+      (db/insert-fixtures)
+      (println "Fixtures inserted")))
   (println "kosten-los started successfully..."))
 
 (defn destroy

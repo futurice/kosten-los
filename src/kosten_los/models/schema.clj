@@ -28,7 +28,18 @@
     (sql/do-commands
       "CREATE INDEX timestamp_index ON expense (timestamp)")))
 
+(defn create-countries-table
+  []
+  (sql/with-connection db-spec
+    (sql/create-table
+      :countries
+      [:id "INTEGER PRIMARY KEY AUTO_INCREMENT"]
+      [:code "varchar(3)"])))
+
 (defn create-tables
   "creates the database tables used by the application"
   []
-  (create-expense-table))
+  (do
+    (create-expense-table)
+    (create-countries-table)))
+

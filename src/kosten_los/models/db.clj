@@ -7,6 +7,8 @@
 
 (defentity expense)
 
+(defentity countries)
+
 (defn save-expense
   [amount desc]
   (insert expense
@@ -16,3 +18,13 @@
 
 (defn get-expenses []
   (select expense))
+
+(defn get-countries []
+  (select countries))
+
+(defn insert-fixtures []
+  (insert countries
+    (values [{:code "fi"}
+             {:code "uk"}
+             {:code "ge"}
+             {:code "se"}])))
