@@ -21,7 +21,7 @@ Check the example page at [http://localhost:3000/](http://localhost:3000/)
 ## Tech stack
 
 * Layout: Twitter Bootstrap
-* Webapp: RxJS, Rx.jQUery.js, jQuery
+* Webapp: RxJS, Rx.jQuery.js, jQuery
 * REST API: Luminus web framework
 * DB wrapper: Korma
 * Database: H2
@@ -30,8 +30,7 @@ Check the example page at [http://localhost:3000/](http://localhost:3000/)
 
 ### RxJS
 
-* http://jhusain.github.io/learnrx/
-* http://reaktor.github.io/learn-rx
+* http://jhusain.github.io/learnrx (doesn't work well with FF, try Chrome)
 
 ### Luminus, with stack architecture
 
