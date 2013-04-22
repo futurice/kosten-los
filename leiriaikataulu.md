@@ -1,16 +1,11 @@
-![MORTλL KOMBINλTOR ](https://dl.dropboxusercontent.com/u/52798564/mortal-kombinator-logotext.jpg)
+![MORTλL KOMBINλTOR](https://dl.dropboxusercontent.com/u/52798564/mortal-kombinator-logotext.jpg)
 
 # Futurice Functional Programming Code Camp 2.–4.5.
 
 Torstai
 ----
 
-* 14:00 Järkkäilijät lähtee Larusta
-  * Verkot, sähköt, presekone kuntoon
-  * Backlogin laputus valmiiksi tiimitilojen seinälle
-  * Leiriohjelma ryhmätyötilojen seinälle selvästi ja isosti
 * 16:00 Bussi Lauttasaaresta
-  * jaetaan swägit bussissa
   * **Jakautuminen ryhmiin** viimeistään bussissa (voi myös jakautua etukäteen)
   * **Tehtävänantoon tutustuminen**
 * 17:30 **Intro leiripaikkaan** ja majoittautuminen
@@ -44,23 +39,11 @@ Lauantai
 - 7:10 Ylimääräiset aamu-unet, 3 min
 - 7:13 Aamureippailut ja -pesut
 - 8:00 Aamiainen
-- 8:45 **Keynote**  MORTAL KOMBINATOR?
+- 8:45 **Keynote** MORTλL KOMBINλTOR
 - 9:15 **koodausta**
 - 11:40 **daily 3**
 - 12:00 lounas
 - 12:45 **finalisointisprintti**
-- 15:00 **loppudemot, skumppa**
-* 16:00 vex. Palautebussi!
-  * Retro ja palautteen keruu bussissa
-- 18:00 Jatkorafla???
-
-Tiistai Vltava 16-17
-----
-
-- Purgu
-- pulaute
-- dokumentointi tulevia aikoja varten!
-- retro? Budjetti, hups?
-- Tuomas S!
-- Myöhemmin: loppudemot Veralle
-
+- 15:00 **Loppudemot! \o/**
+* 16:00 Palautebussi!
+- 18:00 Jatkot @ Helsinki

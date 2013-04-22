@@ -16,7 +16,8 @@ To start a web server for the application, run:
 
     $ lein ring server
 
-Check the example page at [http://localhost:3000/](http://localhost:3000/)
+Check the example page at [http://localhost:3000/](http://localhost:3000/).
+To clear up H2 database, remove `resources/public/site.db.h2.db`.
 
 ## Tech stack
 
@@ -25,6 +26,16 @@ Check the example page at [http://localhost:3000/](http://localhost:3000/)
 * REST API: Luminus web framework
 * DB wrapper: Korma
 * Database: H2
+
+## REPL
+
+Use REPL to try out stuff in command line, e.g.:
+
+    $ lein repl
+    user=> (use 'kosten-los.models.db)
+    user=> (use 'noir.response)
+    user=> (json (map :code (get-countries)))
+    {:headers {"Content-Type" "application/json; charset=utf-8"}, :body "[\"fi\",\"uk\",\"de\",\"se\"]"}
 
 ## Resources for studying
 
