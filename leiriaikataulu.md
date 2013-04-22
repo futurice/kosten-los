@@ -62,3 +62,5 @@ Tiistai Vltava 16-17
 - dokumentointi tulevia aikoja varten!
 - retro? Budjetti, hups?
 - Tuomas S!
+- Myöhemmin: loppudemot Veralle
+
