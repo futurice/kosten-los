@@ -18,10 +18,10 @@
     endDate (fmt/parse date-formatter end)]
     (t/in-minutes (t/interval startDate endDate))))
 
-(def countries
+(defn countries []
   (map :code (db/get-countries)))
 
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/countries" [] (r/json countries))
+  (GET "/countries" [] (r/json (countries)))
   (POST "/allowance" [& all] (str (allowance all))))
