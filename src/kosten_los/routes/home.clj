@@ -22,6 +22,5 @@
 
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/about" [] (about-page))
   (GET "/countries" [] (r/json countries))
   (POST "/allowance" [& all] (str (allowance all))))
