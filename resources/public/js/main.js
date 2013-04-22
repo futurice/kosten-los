@@ -48,7 +48,7 @@ function showSuccessMsg(response) {
   showMsg('Thank you!', 'Your allowance claims have been submitted. Cashing in '+booty+' € worth of mad dough :D', 'success')
 }
 function showErrorMsg() {
-  showMsg('Oops!', 'There was an error processinc your claims. No cash for you today :(', 'error')
+  showMsg('Oops!', 'There was an error processing your claims. No cash for you today :(', 'error')
 }
 function createOption(country) {
   return $('<option>').attr('value', country).text(country)
