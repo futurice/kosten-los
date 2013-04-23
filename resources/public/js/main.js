@@ -3,20 +3,20 @@ var $form = $('.allowance-form').submit(always(false))
 var $successMsg = $('.success-msg')
 var $errorMsg = $('.error-msg')
 
-var countriesStr = $.getAsObservable(context+'/countries')
-var docReadyStr = $(document).readyAsObservable()
-var startDateStr = $('.start-date').changeAsObservable()
-var endDateStr = $('.end-date').changeAsObservable()
-var submitStr = $form.submitAsObservable()
-var countriesToPopulateStr = docReadyStr
-  .map(always(countriesStr))
+var countriesS = $.getAsObservable(context+'/countries')
+var docReadyS = $(document).readyAsObservable()
+var startDateS = $('.start-date').changeAsObservable()
+var endDateS = $('.end-date').changeAsObservable()
+var submitS = $form.submitAsObservable()
+var countriesToPopulateS = docReadyS
+  .map(always(countriesS))
   .switchLatest()
-var submitResponseStr = submitStr
+var submitResponseS = submitS
   .map(postForm)
   .switchLatest()
 
-countriesToPopulateStr.subscribe(populateCountries)
-submitResponseStr.subscribe(showSuccessMsg, showErrorMsg)
+countriesToPopulateS.subscribe(populateCountries)
+submitResponseS.subscribe(showSuccessMsg, showErrorMsg)
 
 // Functional helpers
 
