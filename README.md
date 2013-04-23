@@ -41,19 +41,21 @@ Use REPL to try out stuff in command line, e.g.:
 
 ### RxJS
 
-* http://jhusain.github.io/learnrx (doesn't work well with FF, try Chrome)
+http://jhusain.github.io/learnrx (doesn't seem to work well with FF, try Chrome)
+
+* Note: this begins with functional programming basics and RxJS stuff is there pretty late (for a reason). If you feel you already know the stuff, just read the text and skip through the exercises ("Show answer", then "Run") that are too easy.
 
 ### Luminus, with stack architecture
 
-* http://www.luminusweb.net/docs
+http://www.luminusweb.net/docs
 
 ### Korma
 
-* http://sqlkorma.com/docs
+http://sqlkorma.com/docs
 
 ### Clojure
 
-* http://clojurekoans.com
+http://clojurekoans.com
 
 ## License
 
