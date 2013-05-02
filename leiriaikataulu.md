@@ -26,7 +26,7 @@ Perjantai
 - 13:15 **lisää koodia**
 - 14:30 välipala (ja daily)
 - 14:40 **daily 2**
-- 15:00 Combat-treenit (pituus halujen ja jaksamisen mukaan)
+- 15:00 Kombat-treenit (pituus halujen ja jaksamisen mukaan)
 - 16:00 **tekeminen jatkuu**
 - 18:45 **välidemo**
 - 19:30 Miniretrot tiimeissä
