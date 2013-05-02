@@ -19,6 +19,13 @@ To start a web server for the application, run:
 Check the example page at [http://localhost:3000/](http://localhost:3000/).
 To clear up H2 database, remove `resources/public/site.db.h2.db`.
 
+## Tool suggestions
+
+* IntelliJ IDEA / WebStorm / PHPStorm: JavaScript + La Clojure plugins
+* Sublime Text 2 + SublimeCodeIntel plugin
+* Eclipse + JavaScript Development Tools + CounterClockWise
+* LightTable (for Clojure)
+
 ## Tech stack
 
 * Layout: Twitter Bootstrap
