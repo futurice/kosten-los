@@ -52,6 +52,8 @@ http://jhusain.github.io/learnrx (doesn't seem to work well with FF, try Chrome)
 
 * Note: this begins with functional programming basics and RxJS stuff is there pretty late (for a reason). If you feel you already know the stuff, just read the text and skip through the exercises ("Show answer", then "Run") that are too easy.
 
+Different types of Subject: http://stackoverflow.com/questions/4787276/what-do-the-various-isubject-implementations-do-and-when-would-they-be-used
+
 **Docs about Reactive Extensions in general**
 
 Not RxJS specific, but interfaces are the basically the same everywhere except for language specific code styles
