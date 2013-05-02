@@ -16,7 +16,10 @@ var submitResponseS = submitS
   .switchLatest()
 
 countriesToPopulateS.subscribe(populateCountries)
-submitResponseS.subscribe(showSuccessMsg, showErrorMsg)
+submitResponseS
+  .retry() // if errors
+  .catchException(showErrorMsg)
+  .subscribe(showSuccessMsg)
 
 // Functional helpers
 
