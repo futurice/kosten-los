@@ -13,6 +13,7 @@
                  [org.clojure/java.jdbc "0.2.3"]
                  [com.h2database/h2 "1.3.170"]
                  [korma "0.3.0-RC5"]
+                 [clj-pdf "1.0.9"]
                  [log4j
                   "1.2.15"
                   :exclusions

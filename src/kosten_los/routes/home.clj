@@ -5,7 +5,8 @@
             [kosten-los.models.db :as db]
             [noir.response :as r]
             [clj-time.core :as t]
-            [clj-time.format :as fmt]))
+            [clj-time.format :as fmt]
+            [kosten-los.views.samplepdf :as samplepdf]))
 
 (def date-formatter (fmt/formatter "yyyy-MM-dd HH:mm"))
 
@@ -24,4 +25,8 @@
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/countries" [] (r/json (countries)))
+  (GET "/testpdf" []
+       {:status 200
+        :headers {"Content-Type" "application/pdf", "content-disposition" "attachment; filename=foobar.pdf"}
+        :body (samplepdf/gen-pdf)})
   (POST "/allowance" [& all] (str (allowance all))))
