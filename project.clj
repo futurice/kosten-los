@@ -21,7 +21,7 @@
                    javax.jms/jms
                    com.sun.jdmk/jmxtools
                    com.sun.jmx/jmxri]]]
-  :plugins [[lein-ring "0.8.3"]]
+  :plugins [[lein-ring "0.8.3"], [lein-idea "1.0.1"]]
   :ring {:handler kosten-los.handler/war-handler
          :init    kosten-los.handler/init
          :destroy kosten-los.handler/destroy}

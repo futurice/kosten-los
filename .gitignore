@@ -9,3 +9,6 @@ pom.xml
 /.lein-*
 /.env
 *.sublime*
+*.iml
+*.ipr
+*.iws
