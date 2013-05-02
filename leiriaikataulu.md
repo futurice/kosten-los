@@ -47,3 +47,5 @@ Lauantai
 - 15:00 **Loppudemot! \o/**
 * 16:00 Palautebussi!
 - 18:00 Jatkot @ Helsinki
+
+![Sannäsin aluekartta](http://www.sannaskartano.fi/images/sannsin%20kartano_aluekartta.jpg)
