@@ -52,6 +52,13 @@ http://jhusain.github.io/learnrx (doesn't seem to work well with FF, try Chrome)
 
 * Note: this begins with functional programming basics and RxJS stuff is there pretty late (for a reason). If you feel you already know the stuff, just read the text and skip through the exercises ("Show answer", then "Run") that are too easy.
 
+**Docs about Reactive Extensions in general**
+
+Not RxJS specific, but interfaces are the basically the same everywhere except for language specific code styles
+
+* Official docs: http://msdn.microsoft.com/en-us/library/hh242985.aspx – start with Getting Started and Using Rx, API docs not very beginner friendly
+* Intro videos: http://msdn.microsoft.com/en-us/data/gg577611.aspx
+
 ### Luminus, with stack architecture
 
 http://www.luminusweb.net/docs
