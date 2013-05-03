@@ -63,11 +63,14 @@ function createOption(country) {
 function textNode(str) {
   return document.createTextNode(str)
 }
-function log(x) {
-  console.log(x)
+function log(/*args*/) {
+  console.log.apply(console, arguments)
 }
 function logWith(label) {
-  return function(x) {
-    console.log(label, x)
+  return function(/*args*/) {
+    console.log.apply(console, Array.prototype.concat.apply([label], arguments))
   }
+}
+function logAllObserver(label) {
+  return Rx.Observer.create(logWith(label + ' - Value:'), logWith(label), logWith(label + ' - Completed'))
 }
