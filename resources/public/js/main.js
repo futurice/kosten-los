@@ -12,14 +12,12 @@ var countriesToPopulateS = docReadyS
   .map(always(countriesS))
   .switchLatest()
 var submitResponseS = submitS
-  .map(postForm)
-  .switchLatest()
+  .flatMap(postForm)
+  .repeat()
 
 countriesToPopulateS.subscribe(populateCountries)
-submitResponseS
-  .retry() // if errors
-  .catchException(showErrorMsg)
-  .subscribe(showSuccessMsg)
+submitResponseS.subscribe(showResponse)
+
 
 // Functional helpers
 
@@ -35,7 +33,13 @@ function populateCountries(response) {
   $('.countries').append(response.data.map(createOption))
 }
 function postForm(allowance) {
-  return $.postAsObservable(context+'/allowance', $form.serialize())
+  return $.postAsObservable(context+'/allowance', $form.serialize()).materialize()
+}
+function showResponse(notification) {
+  switch (notification.kind) {
+    case 'N': showSuccessMsg(notification.value); break
+    case 'E': showErrorMsg(); break
+  }
 }
 function showMsg(title, body, type) {
   $('.alert').remove()
