@@ -24,13 +24,11 @@ Perjantai
 - tauko omaan tahtiin (eli **saa koodata**)
 - 13:05–13:10 videoyhteys futufridayhyn
 - 13:15 **lisää koodia**
-- 14:30 välipala (ja daily)
-- 14:40 **daily 2**
-- 15:00 Kombat-treenit (pituus halujen ja jaksamisen mukaan)
+- 15:30 välipala 
 - 16:00 **tekeminen jatkuu**
-- 18:45 **välidemo**
-- 19:30 Miniretrot tiimeissä
-- 19:45 Päivällinen ja sauna 
+- 17:00 **välidemot 3**
+- 17:30 Kombat-treenit, urheiluhalli (pituus halujen ja jaksamisen mukaan)
+- 18:30 Päivällinen ja sauna 
 - illalla **vapaata koodailua** -> 23:30 ryhmätyötilat sulki
 
 Lauantai
