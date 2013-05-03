@@ -30,7 +30,7 @@ function always(x) {
 // State mutation and I/O
 
 function populateCountries(response) {
-  $('.countries').append(response.data.map(createOption))
+  $('.countries').empty().append(response.data.map(createOption))
 }
 function postForm(allowance) {
   return $.postAsObservable(context+'/allowance', $form.serialize()).materialize()
